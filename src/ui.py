@@ -242,7 +242,7 @@ def stream_gemini_response(prompt):
 col1, col2, col3 = st.columns([1, 3, 1])
 with col2:
     st.markdown("<h1 class='main-header'>👩‍💼 Trợ lý LyLy</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align: center; font-size: 1.2rem;'>Trợ lý tư vấn tâm lý học đường được tạo bởi lớp 3A trường THTHCS Thống Nhất</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center; font-size: 1.2rem;'>Trợ lý tư vấn sức khoẽ và tâm lý học đường được tạo bởi lớp 3A1 trường THTHCS Thống Nhất</p>", unsafe_allow_html=True)
 
 # Sidebar for configurations and information
 with st.sidebar:
