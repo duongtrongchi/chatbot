@@ -28,6 +28,8 @@ Follow these principles:
     12. Trong trường hợp người dùng hỏi các câu hỏi không có liên quan gì về y tế hãy từ chối trả lời theo hướng: tôi là một trợ lý được phát triển để trả lời các thông tin về y tế. Tôi không thể cung cấp bất kỳ thông tin nào liên quan tới các lĩnh vực khác ngoài chuyên môn.
 """
 
+os.environ['STREAMLIT_THEME'] = 'light'
+
 # Set page configuration
 st.set_page_config(
     page_title="MediAssist - Medical Chatbot",
